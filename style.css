@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Inter;
+}
+
+body {
+    background-color: hsl(0, 0%, 8%);
+    max-width: 1440px;
+    min-width: 375px;
+}
+
+main {
+    width: 300px;
+    height: 500px;
+    background-color: hsl(0, 0%, 12%);
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 10px;
+    padding: 30px;
+    text-align: center;
+}
+
+img {
+    border-radius: 100%;
+    width: 70px;
+}
+
+h2 {
+    color: #FFF;
+    padding-top: 15px;
+}
+
+p {
+    font-size: 14px;
+    color: #fff;
+    font-weight: 400;
+}
+
+p.endereco {
+    color: hsl(75, 94%, 57%);
+    padding-top: 10px;
+}
+
+p.profissao {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+a.botao {
+    background-color: hsl(0, 0%, 20%);
+    color: #fff;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border-width: 2px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+a:hover {
+   background-color: hsl(75, 94%, 57%);
+   color: hsl(0, 0%, 20%);
+   
+}
